@@ -1,0 +1,1658 @@
+header {
+    /* Neutrals/White */
+    background: #FFFFFF;
+    /* Primary/Blue */
+    border-bottom: 1px solid #047CC0;
+}
+
+.flex.header-content-container li.auth-link {
+    width: 140px;
+}
+
+.flex.header-content-container li.auth-link {
+    text-align: center;
+    flex-direction: unset;
+}
+
+.flex.header-content-container a.auth-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.flex.header-content-container li.auth-link:hover,
+.flex.header-content-container li.auth-link.active {
+    text-decoration: none;
+    border-bottom: 5px solid #047CC0;
+}
+
+.desktop-menu {
+    margin-bottom: 0px;
+}
+
+.auth-link-icon {
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 0px;
+    gap: 24px;
+    width: 250px;
+    /* width: 500px; */
+    margin-left: 20px;
+}
+
+.auth-link-icon .dropdown {
+    display: flex;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+.auth-link-icon .dropdown .profile-avatar,
+.auth-link-icon .dropdown .full_name,
+.dropdown-content p {
+    cursor: pointer;
+}
+
+.auth-link-icon .dropdown .full_name {
+    margin-left: 15px;
+}
+.auth-link-icon .dropdown .full_name.profile-full-name{
+    font-size: 25px;
+    /* text-transform: capitalize; */
+}
+
+.profile-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 24px;
+    object-fit: cover;
+}
+
+.onboarding-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #020303;
+}
+
+.dashboard-title,
+.product-detail-title-container .product-detail-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 80px;
+    color: #020303;
+}
+
+.dashboard-description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #020303;
+}
+
+.onboarding-title-container,
+.dashboard-title-container,
+.product-detail-title-container {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.dashboard-title.coach {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #020303;
+}
+.personal-detail {
+    font-weight: 700;
+}
+
+.border-none {
+    border: 1px solid #E5E5E6;
+}
+
+.onboarding-card {
+    background: #DEEBF3;
+    border: 1px solid #DEEBF3;
+}
+
+.onboarding-card .onboarding-card-title .card-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+}
+
+.onboarding-card .onboarding-card-title svg {
+    margin-top: 5px !important;
+}
+
+.onboarding-card .onboarding-card-title .card-title.active {
+    color: #2F80ED;
+}
+
+ul.onboarding-card-ul {
+    list-style: disc !important;
+    margin-left: 10px;
+}
+
+.onboarding-form-title {
+    /* Titles/T3 B */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+.app-btn-primary {
+    background: #4D14D2;
+}
+
+.ml-f-0{
+    margin-left: 0px !important;
+}
+.mx-100{
+    max-width: 100% !important;
+}
+.onboarding-button {
+    width: 200px;
+    height: 44px;
+}
+.onboarding-button.float-left{
+    float: left;
+}
+
+.onboarding-btn-container {
+    text-align: -webkit-right;
+}
+
+.mobile-avatar {
+    text-align: -webkit-center;
+}
+
+.wrapper ul li a {
+    padding: 0px;
+}
+
+.mobile-avatar .profile-avatar {
+    margin-left: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9 !important;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 30px 16px 12px 30px;
+    z-index: 1;
+    margin-top: 180px;
+    margin-left: 15%;
+    background: #FCFCFC;
+    border: 2px solid #047CC0;
+    border-radius: 4px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.social-payment-container .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    padding-left: 50px;
+}
+
+.upgrade-container {
+    background: #FFF4CD;
+    height: 60px;
+    padding: 18px 20px;
+    display: flex;
+}
+
+.upgrade-container .need-link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    width: -webkit-fill-available;
+    padding-left: 10px;
+}
+
+.upgrade-container .upgrade-link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #0152EF;
+}
+
+.x-input-right-icon {
+    position: absolute;
+    right: 7%;
+    margin-top: -30px;
+}
+
+.link-card {
+    background: #DEEBF3;
+}
+
+.link-card:hover {
+    background: #C2E4FA;
+    border: 1px solid #047CC0;
+}
+
+.link-card .action-icons {
+    height: -webkit-fill-available;
+    margin-left: 0%;
+    display: none;
+}
+
+.link-card:hover .action-icons {
+    display: -webkit-inline-box;
+}
+
+.link-card .action-icons img {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.link-card .link-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.link-card .link-url {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    overflow-wrap: break-word;
+}
+
+.link-card .img-container {
+    display: flex;
+    width: fit-content;
+}
+
+.link-card .img-container img {
+    object-fit: cover;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+}
+
+.add-link-button {
+    width: 186px;
+    height: 44px;
+}
+
+.action-icons-container {
+    align-self: center;
+}
+
+.dashboard-athlete-qr-image {
+    width: 144px;
+    height: 144px;
+}
+
+.content-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: rgba(70, 76, 83, 0.65);
+}
+
+.content-description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+
+.nav-item-content.mt {
+    margin-top: 30px;
+}
+
+.your-order-container,
+.cart-list-container {
+    margin-top: 5rem;
+}
+
+.your-order-container .cart-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.your-order-container .cart-title.active {
+    color: #047CC0;
+}
+
+.your-order-container .no-cart {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #2E3338;
+}
+.your-team-container{
+    margin-top: 2rem;
+}
+.your-team-container .cart-title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.08px;
+    color: #047CC0;
+}
+.your-team-container .no-cart{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.your-team-container .setup-team-button{
+    border-radius: 6px;
+    padding: 11px 24px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    height: 62px;
+    margin-left: 10%;
+}
+.your-team-container .setup-team-button:hover{
+    background: #7443e9 !important;
+}
+.your-team-container .update-team-button{
+    border-radius: 6px;
+    padding: 11px 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 2%;
+}
+.your-team-container .update-team-button:hover{
+    background: #7443e9 !important;
+}
+.your-team-container .update-team-button.download-roaster{
+    margin-left: 5px;
+}
+.your-team-container .update-team-button.download-roaster.download-now{
+    margin-right: auto;
+    margin-left: 15px;
+}
+.your-team-container .update-team-button.download-roaster:hover{
+    background: #286a4b !important;
+    border-color: #286a4b !important;
+}
+
+.your-team-container .update-team-button i{
+    margin-right: 2px;
+}
+.team-roaster{
+    background-color: #FD8025;
+    border: 5px solid #483A41;
+    height: 176px;
+}
+.team-roaster .uuid-badge{
+    background-color: #FDF8F5;
+    width: fit-content;
+    padding: 10px 5px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-align: center;
+    height: 166px;
+    font-weight: bold;
+}
+.team-roaster .roaster-text{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.team-roaster .roaster-profile-img{
+    position: absolute;
+    margin-left: 29px;
+    width: 98px;
+    height: 166px;
+    margin-top: -166px;
+    z-index: 1;
+}
+.team-roaster .z-up{
+    z-index: 2;
+}
+.team-roaster .roaster-number{
+    background-color: #FFD1B2;
+    font-size: 20px;
+    border-radius: 0px 5px;
+    border: 1px solid #955225;
+    padding: 0px 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+.team-roaster .roaster-qr-img{
+    position: absolute;
+    width: 75px;
+    margin-top: 55px;
+}
+
+.cart-list-container .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #000000;
+}
+select[name="DataTables_Table_0_length"]{
+    width: 65px !important;
+}
+
+.cart-list-container .description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+.cart-list-container .category-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.88px;
+    color: #047CC0;
+    margin-top: 50px;
+}
+
+.product-cart-container .product-description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.product-cart-container img {
+    width: 100%;
+}
+
+.product-cart-container .product-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.product-detail .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.08px;
+    color: #000000;
+}
+
+.product-detail .description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.product-slider {
+    margin-bottom: 100px;
+}
+
+.cart-list-container .category-title.text-black {
+    color: #000000;
+}
+
+.product-detail-title-container .back-button {
+    align-self: center;
+    margin-right: 30px;
+}
+
+.dashboard-product-detail-title {
+    padding-left: 10px;
+}
+
+a.text-decoration-none {
+    text-decoration: none;
+}
+
+.mooZoom-big-detail {
+    left: 0px !important;
+    top: 0px !important;
+}
+
+.zoom-image-container {
+    position: absolute;
+    width: 49%;
+    height: 530px;
+    background-color: #FFFFFF;
+    display: none;
+    z-index: 1;
+}
+
+.product-variants {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.product-variant-container {
+    border: 1px solid rgba(70, 76, 83, 0.65);
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #2E3338;
+    padding: 10px;
+    width: 45px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-variant-container:hover,
+.product-variant-container.active {
+    color: #FFFFFF;
+    background-color: #047CC0;
+}
+
+.qr-preference.ml {
+    margin-left: 30px;
+}
+
+.qr-preference.radio.selected label::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+#qty,
+#qty:active,
+#qty:focus {
+    border: none;
+    background: unset;
+    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-size: 17px;
+    color: #000000;
+}
+
+.add-to-cart-button {
+    height: 50px;
+    width: 323px;
+    border-radius: 6px;
+    padding: 0px 24px 0px 24px;
+    margin-top: 40px;
+
+}
+
+.qr-preference.radio label {
+    padding-top: 3px;
+    padding-left: 32px;
+}
+
+.cart-count {
+    background: #ED2E2E;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    top: -10px;
+    right: -10px;
+    position: absolute;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.auth-link-icon.cart:hover,
+.auth-link-icon.cart.active {
+    border-bottom: 5px solid #047CC0;
+}
+
+.auth-link-icon.cart {
+    width: 40px;
+}
+
+.cart-list-container {
+    margin-top: 30px !important;
+}
+
+.cart-item-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.cart-item-description-container {
+    padding-left: 20px;
+    width: 450px;
+}
+
+.cart-item-description-container .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.08px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.cart-item-description-container .description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.cart-item-container .quantity {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    align-self: center;
+    padding-left: 2rem;
+}
+
+.cart-item-container .quantity span {
+    font-weight: 600;
+    font-size: 26px;
+    padding-left: 3px;
+}
+
+.cart-item-container .price {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+    align-self: center;
+    padding-left: 18rem;
+}
+
+.cart-item-container,
+.quantity-and-price-container {
+    display: flex;
+}
+
+.cart-summary-container {
+    display: flex;
+}
+
+.cart-summary .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.cart-summary-bottom-hr {
+    border: 1px solid #E5E5E6;
+}
+
+.cart-summary .item>p,
+.summary-titles {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+
+.cart-summary .item p.description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.removeItem {
+    align-self: center;
+    font-size: 25px;
+    padding-right: 15px;
+}
+
+.stripe-payment-submit-btn-container {
+    text-align: end;
+}
+
+.place-order-button {
+    width: 200px;
+}
+
+.auth-link-icon.profile.active span {
+    border-bottom: 5px solid #047CC0;
+}
+
+.order-place-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+    color: #4D14D2;
+    padding-top: 3rem;
+}
+
+.order-place-description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.badge-warning {
+    color: #212529 !important;
+    background-color: #ffc107;
+}
+
+.badge-info {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+.badge-light {
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+.badge-dark {
+    color: #fff;
+    background-color: #343a40;
+}
+
+.order-placed-go-to-dashboard {
+    width: 146px;
+    padding: 2px 16px 2px 16px;
+    text-decoration: none;
+}
+
+.view-all-order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    border: 2px solid #005FCC;
+    border-radius: 4px;
+    text-decoration: none;
+    height: 32px;
+    min-width: 190px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 1.5rem;
+}
+
+.profile-view-image {
+    border-radius: 50%;
+    height: 150px !important;
+    width: 150px !important;
+    margin-right: 10px;
+    border: 5px solid;
+    padding: 0px !important;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+    object-fit: cover;
+}
+
+.profile-detail-container {
+    align-self: center;
+}
+
+.profile-detail-container .profile-view .link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #047CC0;
+}
+
+.profile-view .link-container {
+    background: #DEEBF3;
+    display: flex;
+    padding: 10px 5px 10px 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.profile-view .link-container .title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #000000;
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+.profile-view .link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #047CC0;
+}
+
+.profile-view .bold-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #020303;
+}
+
+.profile-view .content-container .content-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.4px;
+    color: rgba(70, 76, 83, 0.65);
+}
+
+.profile-view .content-container .content-description {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+
+.coach-payment-detail .team_title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.08px;
+    color: #000000;
+}
+
+.coach-payment-detail .team__detail {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+    color: #000000;
+}
+
+.coach-payment-detail .team_payment_title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+    color: #000000;
+}
+
+.coach-payment-detail .team_payment_amount {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.08px;
+    color: #000000;
+}
+
+.modal-content{
+    padding: 20px 25px !important;
+}
+.border-bottom-none{
+    border-bottom: none !important;
+}
+.border-top-none{
+    border-top: none !important;
+}
+.setup-team-next-btn{
+    width: 170px;
+}
+
+#teamModalLabel{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.88px;
+    color: #000000;
+}
+.setup-team-header-title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #020303;
+}
+.setup-team-header-description{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #000000;
+}
+.team-qr-image{
+    width: 158px;
+    padding: 0px 10px 10px 10px;
+}
+.alert .alert-title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.alert .alert-message{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.setup-team-alert{
+    max-width: 85%;
+    margin-left: -10px;
+}
+.setup-team-payment-detail{
+    max-width: 85%;
+    margin-left: -10px;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.upgrade-plan-text{
+    font-size: 18px;
+}
+.alert.show{
+    display: flex !important;
+}
+.selected-kit{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: #000000;
+}
+.coach-cart-padding{
+    padding-left: 3rem !important;
+}
+.password-toggle{
+    color: #AFB2B6;
+    float: right;
+    margin-top: -25px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.quantity-and-price-container{
+    display: block;
+    align-self: center;
+    width: -webkit-fill-available;
+}
+.quantity-and-price-container .quantity{
+    float: left;
+}
+.quantity-and-price-container .price {
+    float: right;
+    padding-left: 0px;
+}
+.display-none{
+    display: none;
+}
+.profile-header-container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.profile-detail-container{
+    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.profile-detail-title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.88px;
+    color: #000000;
+}
+.read-more, .read-less{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #047CC0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.read-more:hover, .read-less:hover{
+    text-decoration: underline;
+}
+.social-link-icon{
+    height: 65px;
+    width: 65px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 1px solid #b8b6b6;
+    box-shadow: 0px 1px 5px rgb(47 39 39 / 30%);
+    margin-left: 1rem;
+    background-color: #fff;
+}
+.social-link-icon-container{
+    margin-top: 20px !important;
+}
+.grey-bg{
+    background-color:#f8f8f8;
+}
+.dashboard-navbar.profile-header{
+    border-radius: 0px 0px 0px 20px;
+}
+.dashboard-navbar.profile-content-container{
+    border-radius: 20px 0px 0px 20px;
+}
+.slick-slide img{
+    border-radius: 15px;
+}
+@media (min-width: 879px) {
+    .cart-vertical-hr {
+        border-bottom: none;
+        border-left: 2px solid #000000;
+        height: 85% !important;
+        margin-top: 10%;
+        display: block;
+    }
+
+    .cart-summary {
+        padding-left: 3rem;
+    }
+
+    .removeItem {
+        display: none !important;
+        cursor: pointer;
+    }
+
+    .cart-item-container:hover .removeItem {
+        display: unset !important;
+    }
+
+    .checkout-success-container {
+        padding-top: 10rem !important;
+        padding-bottom: 10rem !important;
+        padding-left: 7rem !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .team-roaster .roaster-profile-img{
+        width: 65px;
+    }
+    .team-roaster .roaster-text{
+        font-size: 18px;
+    }
+    .your-team-container .cart-title{
+        display: contents;
+    }
+    .your-team-container .update-team-button{
+        margin-left: 2% !important;
+        float: left !important;
+    }
+    .coach-btn-group{
+        width: fit-content;
+    }
+    .coach-btn-group{
+        display: contents;
+    }
+    .cart-item-description-container {
+        width: 270px;
+    }
+
+    .cart-item-container .price {
+        padding-left: 3rem;
+    }
+    #roaster .team-roaster{
+        margin-top: 10px;
+        height: 155px;
+    }
+    #roaster .modal-dialog.modal-xl{
+        margin-top: 20%;
+        width: 100%;
+        padding: 0px;
+    }
+    #roaster{
+        left: 0px;
+        width: 98%;
+    }
+    #roaster .team-roaster .uuid-badge{
+        height: 144px;
+    }
+    #roaster .team-roaster .roaster-profile-img{
+        height: 145px;
+        margin-top: -144px;
+    }
+    #roaster .team-roaster .roaster-qr-img{
+        margin-left: -13px;
+        margin-top: 38px;
+    }
+}
+
+@media (max-width: 768px) {
+    .chart-container .dashboard-title.coach{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .athlete-profile-container .profile-content-container .tab-content {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .your-team-container .setup-team-button{
+        margin-top: 40px;
+    }
+    .chart-container.auth-container{
+        padding-right: 5px !important;
+        padding-left: 5px !important;
+    }
+    .chart-container .row{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .ml-f-0{
+        margin-left: 0px !important;
+    }
+    .pl-f-0{
+        padding-left: 0px !important;
+    }
+    .profile-view .link-container{
+        border-radius: 60px 33px 33px 60px;
+        height: 85px;
+    }
+    .social-link-icon{
+        margin-left: -10px;
+        position: absolute;
+        margin-top: -9px;
+        background-color: #fff;
+        height: 85px;
+        width: 85px;
+    }
+    .profile-view .link-container .title{
+        margin-left: 85px;
+    }
+    .upgrade-container {
+        height: 105px;
+        min-height: unset;
+    }
+
+    .link-card .img-container {
+        margin: 0 auto;
+    }
+
+    .link-card>div {
+        text-align: center;
+    }
+
+    .link-card .action-icons {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .link-card .action-icons img {
+        margin-right: 15px;
+    }
+
+    /* .link-card{
+        background: #C2E4FA;
+        border: 1px solid #047CC0;
+    } */
+    .link-card .action-icons {
+        display: -webkit-inline-box;
+    }
+
+    .dashboard-title {
+        font-size: 55px;
+    }
+
+    .qr-links p.download a,
+    .qr-links p.copy span {
+        font-size: 20px;
+    }
+
+    .auth-container.pr-f-0 {
+        padding-right: 0rem !important;
+    }
+
+    .auth-container.pr-f-point5 {
+        padding-right: 0.5rem !important;
+    }
+    .your-team-container .update-team-button{
+        margin-left: 0%;
+        float: right;
+        margin-top: 15px;
+    }
+
+    .cart-list-container .title {
+        font-size: 45px;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 70px;
+    }
+
+    .dashboard-navbar .nav.nav-pills {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-profile-container .dashboard-title-container.flex {
+        display: block;
+    }
+
+    .signup-profile-view {
+        width: 100%;
+    }
+
+    .footer-logo-container.profile-view {
+        padding-left: 0px;
+        padding-right: 0px;
+        min-height: max-content;
+    }
+
+    .footer-logo-container.profile-view .footer-item.join-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        display: block;
+        align-items: center;
+        letter-spacing: -0.4px;
+        color: #000000;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .profile-view-container .dashboard-title {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.88px;
+        color: #000000;
+    }
+    .setup-team-alert{
+        max-width: unset;
+    }
+    .setup-team-header-description{
+        padding-left: 10px;
+    }
+    .setup-team-container{
+        padding-left: 25px;
+    }
+    .team-qr-image{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .team-qr-image-container{
+        text-align: -webkit-center;
+    }
+    .setup-team-payment-detail{
+        max-width: unset;
+    }
+    .previous-onboarding-btn{
+        width: fit-content;
+    }
+    .dashboard-navbar .nav.nav-pills .ml-f-0{
+        margin-left: 15px !important;
+    }
+    .profile-header-container{
+        height: 170px;
+    }
+    .profile-view-image{
+        top: 180px;
+    }
+}
+
+@media (max-width: 878px) {
+    .cart-item-description-container {
+        width: unset;
+        min-width: 210px;
+    }
+
+    .cart-item-container {
+        display: flex;
+    }
+
+    .quantity-and-price-container {
+        display: block;
+        align-self: center;
+    }
+
+    .cart-item-container .quantity span {
+        font-size: 16px;
+    }
+
+    .cart-item-container .price {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+
+    .cart-list-container .title {
+        font-size: 30px;
+    }
+
+    .cart-item-description-container .description {
+        font-size: 16px;
+    }
+
+    .cart-item-container .quantity,
+    .cart-item-container .price {
+        padding-left: 1rem;
+    }
+
+    .cart-summary-container {
+        display: unset;
+    }
+
+    .cart-vertical-hr {
+        border-bottom: 2px solid #000000;
+        width: 100% !important;
+        margin-top: 10%;
+        display: block;
+        margin-left: 10%;
+    }
+
+    .cart-summary {
+        padding-left: 1rem;
+    }
+
+    .removeItem {
+        font-size: 20px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .checkout-success-container {
+        margin-top: 2rem !important;
+        padding: 10px !important;
+    }
+
+    .checkout-success-container div {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
+
+@media (min-width: 877px) {
+    .footer-logo-container.desktop {
+        display: block;
+    }
+
+    .footer-logo-container.mobile {
+        display: none;
+    }
+
+    .coach-payment-detail {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 878px) {
+    .coach-payment-detail{
+        padding-left: 15px;
+    }
+    .footer-logo-container.desktop {
+        display: none;
+    }
+
+    .footer-logo-container.mobile {
+        display: block;
+    }
+
+    .footer-logo-container .footer-logo {
+        justify-self: center;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .footer-logo-container {
+        padding-bottom: 1rem;
+    }
+
+    .footer-logo-container.mobile .footer-item {
+        flex-shrink: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .footer-logo-container.mobile>div {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        display: inline-grid;
+        width: 100%;
+    }
+
+    .product-content-detail {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media (max-width: 1266px) {
+    .upgrade-container {
+        min-height: 60px;
+        height: unset;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 1254px !important;
+        margin: 30px auto;
+    }
+    .register-card.px-6.social-link {
+        padding-right: 4rem;
+        padding-bottom: 2rem !important;
+    }
+    .dashboard-title-container a.action-container{
+        padding-right: 35px !important;
+    }
+    .athlete-profile-container .profile-view-image {
+        left: 20px;
+    }
+    .athlete-profile-container .profile-detail-container,
+    .athlete-profile-container .dashboard-navbar .nav.nav-pills,
+    .athlete-profile-container .profile-content-container .tab-content{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .athlete-profile-container .dashboard-title-container,
+    .athlete-profile-container .dashboard-profile-container .col-*{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .athlete-profile-container .dashboard-navbar.profile-content-container{
+        padding-left: 0px;
+    }
+    .athlete-profile-container .profile-content-container .tab-content{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

@@ -1,0 +1,57 @@
+.dashboard-navbar .nav.nav-pills li{
+    text-align: center;
+    flex-direction: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 10px;
+}
+.dashboard-navbar .nav.nav-pills li a{
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    color: #2E3338;
+
+    padding: 0.35em 0.65em;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: #77d695;
+}
+.dashboard-navbar .nav.nav-pills{
+    /* border-bottom: 1px solid rgba(70, 76, 83, 0.65); */
+}
+.dashboard-navbar .nav.nav-pills li.active,.dashboard-navbar .nav.nav-pills li:hover{
+    /* border-bottom: 5px solid #047CC0; */
+}
+
+.dashboard-navbar .nav.nav-pills li.active a,.dashboard-navbar .nav.nav-pills li a:hover{
+    background-color: #1aa88b;
+    color: #ffffff;
+}
+.dashboard-navbar .nav.nav-pills{
+    margin-top: 3rem;
+}
+.dashboard-title-container{
+    padding-top: 1rem;
+}
+@media (max-width: 768px){
+    .dashboard-navbar .nav.nav-pills {
+        display: flex;
+    }
+    .dashboard-navbar .nav.nav-pills{
+        margin-top: 2rem;
+    }
+    .dashboard-navbar .nav.nav-pills li a{
+        font-size: .90rem;
+    }
+    .dashboard-title-container{
+        padding-top: 10px;
+    }
+}

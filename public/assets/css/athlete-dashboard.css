@@ -1,0 +1,89 @@
+.auth-container {
+    padding-right: 5rem;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.dashboard-athlete-qr-image {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+.qr-links {
+    text-align: right;
+    align-self: flex-end;
+    padding-right: 15px;
+}
+
+.qr-links p {
+    margin-bottom: 0px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    color: #047CC0;
+    display: flex;
+    justify-content: right;
+}
+
+.qr-links p svg {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.qr-links p.download {
+    margin-bottom: 10px;
+}
+
+.qr-links p.download a {
+    text-decoration: none;
+    color: #047CC0;
+}
+
+.qr-links p.copy span {
+    cursor: pointer;
+}
+
+.qr-links p.download a:hover,
+.qr-links p.copy span:hover {
+    color: #115c88;
+}
+.dashboard-navbar{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.dashboard-navbar .nav.nav-pills li a{
+    margin-bottom: 20px;
+}
+.dashboard-title-container .title{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: #020303;
+    min-width: max-content;
+}
+.dashboard-title-container .action{
+    color: #047CC0;
+}
+
+.dashboard-title-container a.action-container{
+    text-decoration: none;
+    width: -webkit-fill-available;
+    padding-right: 15px;
+}
+.pl-10px{
+    padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .chart-container{
+        padding-top: 2rem;
+    }
+}

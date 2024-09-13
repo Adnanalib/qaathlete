@@ -1,0 +1,6 @@
+div.dataTables_wrapper div.dataTables_length select{
+    width: 57px;
+}
+.dataTables_scrollHead,.dataTables_scrollHeadInner, table{
+    width: 100% !important;
+}

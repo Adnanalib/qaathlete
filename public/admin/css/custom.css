@@ -1,0 +1,107 @@
+.fb-button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lock-wrapper.user {
+    max-width: 420px;
+}
+
+.alert {
+    margin: 15px 20px;
+}
+
+a.success {
+    color: #337ab7;
+}
+
+.fa.danger {
+    color: rgb(219, 12, 12);
+}
+
+.fa.warning {
+    color: rgb(203 172 59);
+}
+
+
+.fa.success {
+    color: rgb(134, 204, 22);
+}
+
+.text-red {
+    color: rgb(219, 12, 12);
+}
+
+.text-loading {
+    color: rgb(203 172 59);
+}
+
+.hide-content {
+    display: none;
+}
+
+.panel-heading {
+    display: contents;
+}
+.brand-title.d-flex{
+    display: flex !important;
+}
+.brand-title.d-flex img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.toast{
+    z-index: 99999;
+}
+.float-right{
+    float: right;
+}
+.text-center{
+    text-align: center;
+}
+.profile-image{
+    border-radius: 50%;
+}
+.profile-image-container{
+    margin-bottom: 3rem;
+    padding: 15px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.alert{
+    margin: 15px 2px 0px 2px;
+}
+@media (min-width:1280px) {
+    .table-button-container {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+    .panel-title{
+        line-height: 60px !important;
+    }
+
+    .show-on-mobile {
+        display: none;
+    }
+
+    .table-button-container .btn:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width:1279px) {
+    .show-on-desktop {
+        display: none;
+    }
+    .panel-heading{
+        display: flex;
+    }
+    .table-button-container{
+        align-self: center;
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}

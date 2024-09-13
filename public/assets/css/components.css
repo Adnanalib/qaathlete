@@ -1,0 +1,202 @@
+.x-input,.x-select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #AFB2B6;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: -0.4px;
+    color: #434343;
+    padding: 0px 0px 10px 0px;
+}
+.x-select option{
+    padding-left: 10px;
+}
+.x-input-radio{
+
+}
+
+.x-input:focus,.x-select:focus,
+.x-input:focus::-webkit-input-placeholder {
+    border-color: #005FCC;
+    box-shadow: none;
+    border-color: #2563eb;
+}
+
+.input-sublabel {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #2E3338;
+}
+
+.input-label {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #020303;
+}
+.input-error{
+    /* Caption 2 / Default */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FF2E1F;
+}
+.ghost-btn-primary{
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 24px;
+    border: 2px solid #005FCC;
+    border-radius: 6px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #005FCC;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ghost-btn-primary:hover,.ghost-btn-primary:focus{
+    background: #E6F1FF;
+    border: 2px solid #0077FF
+}
+
+.ghost-btn-primary:disabled{
+    background: #FFFFFF;
+    border: 2px solid rgba(2, 3, 3, 0.32);
+    color: rgba(2, 3, 3, 0.32);
+    cursor: not-allowed;
+}
+
+
+.ghost-btn-secondary{
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 24px;
+    border: 2px solid #6c757d;
+    border-radius: 6px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6c757d;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ghost-btn-secondary:hover,.ghost-btn-secondary:focus{
+    background: #E6F1FF;
+    border: 2px solid #6c757d
+}
+
+.ghost-btn-secondary:disabled{
+    background: #FFFFFF;
+    border: 2px solid rgba(2, 3, 3, 0.32);
+    color: rgba(2, 3, 3, 0.32);
+    cursor: not-allowed;
+}
+
+.app-btn-primary{
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    background: #005FCC;
+    border-radius: 6px;
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.app-btn-primary:hover,.app-btn-primary:focus{
+    background: #0077FF;
+    border-radius: 6px;
+}
+
+.app-btn-primary:disabled{
+    background: #FCFCFC;
+    border-radius: 6px;
+    cursor: not-allowed;
+    color: rgba(2, 3, 3, 0.32);
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04);
+}
+.app-btn-primary:active{
+    background: #005FCC;
+    border-radius: 6px;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before{
+    border: 1px solid #047CC0 !important;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #047CC0;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
