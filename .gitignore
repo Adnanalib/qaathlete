@@ -2,3 +2,5 @@ vendor/
 config/
 node_modules/
 database/
+app/credentials.json
+app/credentials1.json
